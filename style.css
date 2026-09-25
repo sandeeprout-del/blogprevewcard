@@ -1,24 +1,151 @@
-body{
+
+
+@font-face {
+    font-family: 'extrabold';
+    src: url('assets/fonts/static/Figtree-ExtraBold.ttf');
+}
+
+body {
     background-color: hsl(47, 88%, 63%);
+    font-family:'fingtree',sans-serif ;
     display: flex;
-    justify-content: center;
     align-items: center;
+    justify-content: center;
     height: 100vh;
 }
 
-div{
-  border: 1px solid black;
-  width: 384px;
-  height: 522px;
-  border-radius: 16px;
-  background-color: white;
-  padding: 10px;
-
+.card {
+    width:385px;
+    height: 522px;
+    background-color: white;
+    border-radius: 20px;
+    border: 1px solid black;
+    padding:24px;
+    box-shadow: 10px 10px 0px black;
 }
 
-#First{
-    width: 336px;
-    height: 200px;
-    border-radius: 10px;
+.blog-image img{
 
+
+    width: 100%;
+    border-radius: 20px;
+
+
+    margin-bottom: -20px;
+}
+
+h4 {
+    background-color:  hsl(47, 88%, 63%); ;
+    font-weight: bold;
+    font-family: 'extrabold';
+    font-size: px;
+    width: 100px;
+    text-align: center;
+    padding: 4px 12px;
+    border-radius: 5px;
+}
+
+h1 {
+    font-size: 25px;
+    font-family: 'extrabold', sans-serif;
+}
+
+.para2 {
+    color: hsl(0, 0%, 42%);
+    font-family:'extrabold
+    ' ;
+}
+
+@font-face {
+    font-family: 'extrabold';
+    src: url('assets/fonts/static/Figtree-ExtraBold.ttf');
+}
+
+body {
+    background-color: hsl(47, 88%, 63%);
+    font-family:'fingtree',sans-serif ;
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    justify-content: center;
+    
+}
+
+.card {
+    width:385px;
+    height: 522px;
+    background-color: white;
+    border-radius: 20px;
+    border: 1px solid black;
+    padding:24px;
+    box-shadow: 10px 10px 0px black;
+}
+
+.blog-image img{
+    width: 100%;
+    border-radius: 20px;
+    margin-bottom: -20px;
+}
+
+h4 {
+    background-color:  hsl(47, 88%, 63%); ;
+    font-weight: bold;
+    font-family: 'extrabold';
+    font-size: px;
+    width: 100px;
+    text-align: center;
+    padding: 4px 12px;
+    border-radius: 5px;
+}
+
+h1 {
+    font-size: 25px;
+    font-family: 'extrabold', sans-serif;
+}
+
+.para2 {
+    color: hsl(0, 0%, 42%);
+    font-size: 18px;
+    opacity: 0.7;
+}
+
+.contact {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+#second{
+    width: 50px;
+    height: 50px;
+    margin-right: 20px;
+}
+
+a{
+    text-decoration: none;
+    font-family: 'extrabold';
+    font-weight: bold;
+    color: black;
+}
+    opacity: 0.7;
+}
+
+.contact {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+#second{
+
+    width: 50px;
+    height: 50px;
+    margin-right: 20px;
+}
+
+a{
+    text-decoration: none;
+    font-family: 'extrabold';
+    font-weight: bold;
+    color: black;
 }
